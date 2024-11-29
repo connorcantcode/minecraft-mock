@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "name": "Iron Sword",
+      "price": 100,
+      "quantity": 10,
+      "description": "A sturdy iron sword"
+    },
+    {
+      "name": "Diamond Sword",
+      "price": 1000,
+      "quantity": 10,
+      "description": "A sturdy diamond sword"
+    }
+  ]
+}
