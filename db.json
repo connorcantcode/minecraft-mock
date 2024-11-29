@@ -3,7 +3,7 @@
     "id": "weapons-store",
     "name": "Your trusty weapons store!",
     "currency": "money",
-    items: [
+    "items": [
 {
       "name": "Iron Sword",
       "price": 100,
