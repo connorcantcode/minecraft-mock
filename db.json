@@ -1,20 +1,43 @@
 {
-  "shop": {
-    "id": "weapons-store",
-    "name": "Your trusty weapons store!",
-    "currency": "money",
-    "items": [
-{
-      "name": "Iron Sword",
-      "price": 100,
-      "quantity": 10,
-      "description": "A sturdy iron sword"
-    },
+  "shops": [
     {
-      "name": "Diamond Sword",
-      "price": 1000,
-      "quantity": 10,
-      "description": "A sturdy diamond sword"
+      "name": "Block Store",
+      "identitifer": "minecraft:sign",
+      "denote": "BLOCK STORE",
+      "description": "Get all of your blocks here!",
+      "items": [
+        {
+          "id": 1,
+          "name": "Dirt",
+          "description": "Useful for building all sorts of things, out of dirt!",
+          "quantity": 1000,
+          "price": 5,
+          "buyOptions": [
+            {
+              "name": "Buy 10",
+              "amount": 10,
+              "price": 50
+            },
+            {
+              "name": "Buy 100",
+              "amount": 100,
+              "price": 500
+            },
+            {
+              "name": "Buy 1000",
+              "amount": 1000,
+              "price": 5000
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Stone",
+          "description": "Basic building material",
+          "quantity": 1000,
+          "price": 1,
+          "buyOptions": []
+        }
+      ]
     }
-    ]}
+  ]
 }
